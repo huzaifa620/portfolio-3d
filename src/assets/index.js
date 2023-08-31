@@ -36,6 +36,7 @@ import Pr6 from "./Pr6.png";
 import Pr7 from "./Pr7.png";
 import Pr8 from "./Pr8.png";
 import Pr9 from "./Pr9.png";
+import Pr10 from "./Pr10.png";
 
 export {
   logo,
@@ -76,4 +77,6 @@ export {
   Pr7,
   Pr8,
   Pr9,
+  Pr10,
+
 };

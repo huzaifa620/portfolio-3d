@@ -33,6 +33,8 @@ import {
   Pr7,
   Pr8,
   Pr9,
+  Pr10,
+
 } from "../assets";
 
 export const navLinks = [
@@ -229,6 +231,7 @@ const testimonials = [
 const projects = [
   {
     name: "Dalle 2.0 Image generator",
+    url: "https://open-ai-dalle-mern.vercel.app/",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -271,6 +274,7 @@ const projects = [
   },
   {
     name: "Amazon Clone",
+    url: "https://amazon-clone-with-nextjs-reactjs-webhooks-stripe-checkout-fi.mhuzaifa4.repl.co/",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -292,6 +296,7 @@ const projects = [
   },
   {
     name: "Hulu Clone",
+    url: "https://hulu-with-react-js-next-js-tailwind-css.vercel.app/",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -312,7 +317,26 @@ const projects = [
     source_code_link: "https://github.com/huzaifa620/-Hulu-2.0-with-REACT.JS-Next.js-Tailwind-CSS-",
   },
   {
-    name: "WhatsApp MERN Clone",
+    name: "MyBricks 2.0",
+    url: "https://mybricks-three.vercel.app/",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Pr10,
+    source_code_link: "https://github.com/huzaifa620/mybricks",
+  },
+  {
+    name: "WhatsApp MERN",
+    url: "https://whatsapp-mern-ede10.web.app/",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -337,7 +361,8 @@ const projects = [
     source_code_link: "https://github.com/huzaifa620/Whatsapp-Clone-with-MERN-Stack",
   },
   {
-    name: "WhatsApp Firestore Clone",
+    name: "WhatsApp Firestore",
+    url: "https://whatsapp-react-e4240.web.app/",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -355,6 +380,7 @@ const projects = [
   },
   {
     name: "Instagram Reels Clone",
+    url: "https://instagram-reels-clone-react-js.vercel.app/",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -393,6 +419,7 @@ const projects = [
   },
   {
     name: "Google Clone",
+    url: "https://google-clone-react-three.vercel.app/",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
