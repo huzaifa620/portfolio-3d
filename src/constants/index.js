@@ -23,9 +23,16 @@ import {
   pl,
   rehani,
   upwork,
-  carrent,
-  jobit,
-  tripguide,
+
+  Pr1,
+  Pr2,
+  Pr3,
+  Pr4,
+  Pr5,
+  Pr6,
+  Pr7,
+  Pr8,
+  Pr9,
 } from "../assets";
 
 export const navLinks = [
@@ -221,7 +228,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dalle 2.0 Image generator",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -230,19 +237,40 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Pr9,
+    source_code_link: "https://github.com/huzaifa620/openAI_dalle_MERN",
   },
   {
-    name: "Job IT",
+    name: "Airbnb Clone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Pr1,
+    source_code_link: "https://github.com/huzaifa620/airbnb_REACT",
+  },
+  {
+    name: "Amazon Clone",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -251,37 +279,134 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Pr2,
+    source_code_link: "https://github.com/huzaifa620/Amazon-Clone-with-NEXTJS-ReactJS-Webhooks-Stripe-Checkout-Firestore-NextAuth",
   },
   {
-    name: "Trip Guide",
+    name: "Hulu Clone",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Pr3,
+    source_code_link: "https://github.com/huzaifa620/-Hulu-2.0-with-REACT.JS-Next.js-Tailwind-CSS-",
+  },
+  {
+    name: "WhatsApp MERN Clone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Pr4,
+    source_code_link: "https://github.com/huzaifa620/Whatsapp-Clone-with-MERN-Stack",
+  },
+  {
+    name: "WhatsApp Firestore Clone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Pr5,
+    source_code_link: "https://github.com/huzaifa620/-WhatsApp-Clone-REACT-Firebase",
+  },
+  {
+    name: "Instagram Reels Clone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Pr6,
+    source_code_link: "https://github.com/huzaifa620/instagram_reels_clone_react_JS",
+  },
+  {
+    name: "Tesla Clone",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Pr7,
+    source_code_link: "https://github.com/huzaifa620/Tesla-Clone-with-ReactJS-Redux-Styled-Components",
+  },
+  {
+    name: "Google Clone",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "google API",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Pr8,
+    source_code_link: "https://github.com/huzaifa620/GOOGLE-Clone-REACT",
   },
 ];
 

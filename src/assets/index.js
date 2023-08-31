@@ -27,9 +27,15 @@ import pl from "./company/pl.png";
 import rehani from "./company/rehani.jpg";
 import upwork from "./company/upwork.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Pr1 from "./Pr1.png";
+import Pr2 from "./Pr2.png";
+import Pr3 from "./Pr3.png";
+import Pr4 from "./Pr4.png";
+import Pr5 from "./Pr5.png";
+import Pr6 from "./Pr6.png";
+import Pr7 from "./Pr7.png";
+import Pr8 from "./Pr8.png";
+import Pr9 from "./Pr9.png";
 
 export {
   logo,
@@ -60,7 +66,14 @@ export {
   pl,
   rehani,
   upwork,
-  carrent,
-  jobit,
-  tripguide,
+
+  Pr1,
+  Pr2,
+  Pr3,
+  Pr4,
+  Pr5,
+  Pr6,
+  Pr7,
+  Pr8,
+  Pr9,
 };
