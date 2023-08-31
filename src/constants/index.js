@@ -398,6 +398,7 @@ const projects = [
   },
   {
     name: "Tesla Clone",
+    url: "https://tesla-clone-gtfk9c4rb-huzaifa620.vercel.app/",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
