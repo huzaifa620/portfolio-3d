@@ -233,7 +233,7 @@ const projects = [
     name: "Dalle 2.0 Image generator",
     url: "https://open-ai-dalle-mern.vercel.app/",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform that enables users to generate images using the DALL-E model. Users can input text prompts and receive unique and creative images as outputs.",
     tags: [
       {
         name: "react",
@@ -258,7 +258,7 @@ const projects = [
   {
     name: "Airbnb Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web application that mimics Airbnb's core functionalities, allowing users to explore and book accommodations. Built with React and Firebase for real-time data management.",
     tags: [
       {
         name: "react",
@@ -276,7 +276,7 @@ const projects = [
     name: "Amazon Clone",
     url: "https://amazon-clone-with-nextjs-reactjs-webhooks-stripe-checkout-fi.mhuzaifa4.repl.co/",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An Amazon-inspired e-commerce platform developed with Next.js. Users can browse products, add items to their cart, and proceed to checkout using Stripe integration.",
     tags: [
       {
         name: "react",
@@ -298,7 +298,7 @@ const projects = [
     name: "Hulu Clone",
     url: "https://hulu-with-react-js-next-js-tailwind-css.vercel.app/",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A recreation of Hulu's user interface using Next.js. Users can explore trending movies and shows. Developed with React, Next.js, and Tailwind CSS.",
     tags: [
       {
         name: "next.js",
@@ -320,7 +320,7 @@ const projects = [
     name: "MyBricks 2.0",
     url: "https://mybricks-three.vercel.app/",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A portfolio showcasing various LEGO brick designs. Built for an startup, using React and Tailwind CSS to display creative constructions and architectural models.",
     tags: [
       {
         name: "react",
@@ -338,7 +338,7 @@ const projects = [
     name: "WhatsApp MERN",
     url: "https://whatsapp-mern-ede10.web.app/",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A WhatsApp clone developed with the MERN stack (MongoDB, Express, React, Node.js). Users can send and receive messages in real time with Firebase integration.",
     tags: [
       {
         name: "react",
@@ -364,7 +364,7 @@ const projects = [
     name: "WhatsApp Firestore",
     url: "https://whatsapp-react-e4240.web.app/",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A WhatsApp-inspired messaging application using React and Firebase Firestore. Users can chat in real time and access past conversations.",
     tags: [
       {
         name: "react",
@@ -382,7 +382,7 @@ const projects = [
     name: "Instagram Reels Clone",
     url: "https://instagram-reels-clone-react-js.vercel.app/",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An Instagram Reels clone built with React and Firebase. Users can watch and scroll through short video clips, similar to Instagram's Reels feature.",
     tags: [
       {
         name: "react",
@@ -400,7 +400,7 @@ const projects = [
     name: "Tesla Clone",
     url: "https://tesla-clone-gtfk9c4rb-huzaifa620.vercel.app/",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A clone of Tesla's website using React, Redux, and Firebase. Users can explore Tesla's electric car models and their features.",
     tags: [
       {
         name: "react",
@@ -422,7 +422,7 @@ const projects = [
     name: "Google Clone",
     url: "https://google-clone-react-three.vercel.app/",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simplified Google search engine clone developed with React using Google API. Users can input queries and view search results, mimicking Google's interface.",
     tags: [
       {
         name: "react",
