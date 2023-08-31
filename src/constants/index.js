@@ -3,18 +3,20 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
+
+  sanity,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+  selenium,
+  python,
+  puppeteer,
+  postgresql,
+  next,
+  firebase,
+
   aignitiveX,
   crosswing,
   myAskAI,
@@ -24,7 +26,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -67,56 +68,52 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Selenium",
+    icon: selenium,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Puppeteer",
+    icon: puppeteer,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Node.js",
+    icon: nodejs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next.js",
+    icon: next,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Firebase",
+    icon: firebase,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Sanity CMS",
+    icon: sanity,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "PostgreSql",
+    icon: postgresql,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Redux",
+    icon: redux,
   },
 ];
 
