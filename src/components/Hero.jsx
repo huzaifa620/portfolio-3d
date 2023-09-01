@@ -1,27 +1,45 @@
 import { motion } from "framer-motion";
-
+import me from "../assets/me.jpg"
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { SocialIcon } from 'react-social-icons';
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 h-full max-w-7xl mx-auto ${styles.paddingX} flex flex-row justify-between items-center gap-5`}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+
+        <div className="h-[50%] w-[50%]">
+          <img src={me} alt="" className="h-full w-[80%] rounded-3xl" />
         </div>
 
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white mt-[10%]`}>
-            The Name's <br className='sm:block hidden' /> <span className='text-[#915EFF]'>Huzaifa</span>
-          </h1>
+        <div className="flex space-x-8">
+
+          <div className="flex flex-col w-full space-y-4 mt-[7.5%]">
+
+            <div className="flex w-full justify-end">
+              <SocialIcon url="https://www.linkedin.com/in/muhammad-huzaifa-2a3821249/" fgColor='silver' bgColor='transparent' target="_blank" />
+              <SocialIcon url="https://github.com/huzaifa620" fgColor='silver' bgColor='transparent' target="_blank" />
+              <SocialIcon url="https://www.instagram.com/muhammadhuzaifasiddiq/" fgColor='silver' bgColor='transparent' target="_blank" />
+              <SocialIcon url="https://www.facebook.com/profile.php?id=100016574462614" fgColor='silver' bgColor='transparent' target="_blank" />
+              <SocialIcon url="https://twitter.com/FAGhost3" fgColor='silver' bgColor='transparent' target="_blank" />
+            </div>
+            <h1 className={`${styles.heroHeadText} text-white text-right`}>
+              The Name's <br className='sm:block hidden' /> <span className='text-[#915EFF]'> Huzaifa </span>
+            </h1>
+          </div>
+
+          <div className='flex flex-col justify-center items-center mt-5'>
+            <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+            <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          </div>
+
         </div>
+
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
