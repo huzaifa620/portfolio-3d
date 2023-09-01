@@ -26,12 +26,12 @@ const Hero = () => {
               <SocialIcon url="https://twitter.com/FAGhost3" fgColor='silver' bgColor='transparent' target="_blank" />
             </div>
             <h1 className={`${styles.heroHeadText} text-white text-right`}>
-              The Name's <br className='sm:block hidden' /> <span className='text-[#915EFF]'> Huzaifa </span>
+              The Name's <br className='sm:block hidden' /> <span className='text-[#32c9a5]'> Huzaifa </span>
             </h1>
           </div>
 
           <div className='flex flex-col justify-center items-center mt-5'>
-            <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+            <div className='w-5 h-5 rounded-full bg-[#32c9a5]' />
             <div className='w-1 sm:h-80 h-40 violet-gradient' />
           </div>
 
