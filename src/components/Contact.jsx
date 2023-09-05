@@ -5,6 +5,10 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// 
+// 
+// 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -31,8 +35,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_jaqoq99",
+        "template_cte7uh8",
         {
           from_name: form.name,
           to_name: "M Huzaifa",
@@ -40,7 +44,7 @@ const Contact = () => {
           to_email: "huzaifa62012@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "_cm0ayvKMqRO4kXrf"
       )
       .then(
         () => {
@@ -55,7 +59,7 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.log(error);
 
           alert("Ahh, something went wrong. Please try again.");
         }
