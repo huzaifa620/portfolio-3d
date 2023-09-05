@@ -11,7 +11,7 @@ const Hero = () => {
       >
 
         <div className="lg:h-[50%] lg:w-[50%]">
-          <img src={me} alt="" className="lg:h-full w-48 h-48 rounded-full lg:w-[80%] lg:rounded-3xl" />
+          <img src={me} alt="" className="lg:h-full w-48 h-48 rounded-full lg:w-[80%] lg:rounded-3xl object-cover" />
         </div>
 
         <div className="flex lg:space-x-8">
