@@ -256,23 +256,6 @@ const projects = [
     source_code_link: "https://github.com/huzaifa620/openAI_dalle_MERN",
   },
   {
-    name: "Airbnb Clone",
-    description:
-      "A web application that mimics Airbnb's core functionalities, allowing users to explore and book accommodations. Built with React and Firebase for real-time data management.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-    ],
-    image: Pr1,
-    source_code_link: "https://github.com/huzaifa620/airbnb_REACT",
-  },
-  {
     name: "Amazon Clone",
     url: "https://amazon-clone-with-nextjs-reactjs-webhooks-stripe-checkout-fi.mhuzaifa4.repl.co/",
     description:
@@ -315,6 +298,24 @@ const projects = [
     ],
     image: Pr3,
     source_code_link: "https://github.com/huzaifa620/-Hulu-2.0-with-REACT.JS-Next.js-Tailwind-CSS-",
+  },
+  {
+    name: "Airbnb Clone",
+    url: "https://airbnb-react-two.vercel.app/",
+    description:
+      "A web application that mimics Airbnb's core functionalities, allowing users to explore and book accommodations. Built with React and Firebase for real-time data management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Pr1,
+    source_code_link: "https://github.com/huzaifa620/airbnb_REACT",
   },
   {
     name: "MyBricks 2.0",
