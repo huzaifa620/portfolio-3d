@@ -34,6 +34,7 @@ import {
   Pr8,
   Pr9,
   Pr10,
+  Pr11
 
 } from "../assets";
 
@@ -256,6 +257,32 @@ const projects = [
     source_code_link: "https://github.com/huzaifa620/openAI_dalle_MERN",
   },
   {
+    name: "Weather AI App",
+    url: "https://weather-app-ai-eight.vercel.app/",
+    description:
+      "An AI weather app, powered by ChatGPT and built on Next.js 13, React, Tremor 2.0, StepZen, and GraphQL, offers users comprehensive weather information.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stepzen",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Pr11,
+    source_code_link: "https://github.com/huzaifa620/Amazon-Clone-with-NEXTJS-ReactJS-Webhooks-Stripe-Checkout-Firestore-NextAuth",
+  },
+  {
     name: "Amazon Clone",
     url: "https://amazon-clone-with-nextjs-reactjs-webhooks-stripe-checkout-fi.mhuzaifa4.repl.co/",
     description:
@@ -423,7 +450,7 @@ const projects = [
     name: "Google Clone",
     url: "https://google-clone-react-three.vercel.app/",
     description:
-      "A simplified Google search engine clone developed with React using Google API. Users can input queries and view search results, mimicking Google's interface.",
+      "A simplified Google search engine clone developed with React using Google API, mimicking Google's interface.",
     tags: [
       {
         name: "react",
