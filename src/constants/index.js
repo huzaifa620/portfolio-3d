@@ -258,7 +258,7 @@ const projects = [
   },
   {
     name: "Weather AI App",
-    url: "https://weather-app-ai-eight.vercel.app/",
+    url: "https://weather-app-ai-git-noai-huzaifa620.vercel.app/",
     description:
       "An AI weather app, powered by ChatGPT and built on Next.js 13, React, Tremor 2.0, StepZen, and GraphQL, offers users comprehensive weather information.",
     tags: [
