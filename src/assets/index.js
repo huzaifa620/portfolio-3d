@@ -19,6 +19,8 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import sanity from "./tech/sanity.png";
+import vuejs from "./tech/vuejs.png";
+import django from "./tech/django.png"
 
 import aignitiveX from "./company/aignitiveX.jpg";
 import crosswing from "./company/crosswing.jpg";
@@ -61,6 +63,8 @@ export {
   postgresql,
   next,
   firebase,
+  vuejs,
+  django,
 
   aignitiveX,
   crosswing,

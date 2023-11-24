@@ -16,6 +16,8 @@ import {
   postgresql,
   next,
   firebase,
+  vuejs,
+  django,
 
   aignitiveX,
   crosswing,
@@ -125,6 +127,14 @@ const technologies = [
     name: "Redux",
     icon: redux,
   },
+  {
+    name: "Vue.js",
+    icon: vuejs
+  },
+  {
+    name: "Django",
+    icon: django
+  }
 ];
 
 const experiences = [
@@ -148,16 +158,16 @@ const experiences = [
     companyUrl: "https://crosswing.com/",
     icon: crosswing,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Collaborated with cross-functional teams including AI/ML Engineers, product managers, and other developers to create high-quality products.",
+      "Implemented responsive designs and ensuring cross-browser compatibility.",
+      "Participated in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Data Engineer",
+    title: "Data Manager | Web Developer",
     company_name: "Rehani Soko",
     companyUrl: "https://www.rehanisoko.com/",
     icon: rehani,
@@ -165,20 +175,21 @@ const experiences = [
     date: "Apr 2023 - Present",
     points: [
       "Created a complete data pipeline of Real Estate data from various websites using Python with database on MongoDB.",
-      "After data collection, worked on data filtration part and make the data ready for model training to use it for prediction",
-      "Implemented responsive web design of the chatbot for their website.",
+      "Worked on data filtration part and make the data ready for model training to use it for prediction",
+      "Contributing to the development of an innovative online Real Estate platform utilizing the power of Vue.js and Django.",
     ],
   },
   {
     title: "Backend Developer",
-    company_name: "My AskAI",
+    company_name: "My AskAI (formerly No Code AI Model Builder)",
     companyUrl: "https://myaskai.com/",
     icon: myAskAI,
     iconBg: "#E6DEDD",
     date: "Dec 2022 - Jan 2023",
     points: [
       "Created a custom no code openAI model trainer API validator using Node.js",
-      "Worked on another project to allow users to login to Twitter with their app using Twitter API on Node.js",
+      "Created an API to allow users to login to Twitter with their app using Twitter API on Node.js",
+      "My AskAI is the end product and was originally founded as No Code AI Model Builder in December 2022"
     ],
   },
   {
@@ -211,21 +222,21 @@ const testimonials = [
     name: "Duong",
     designation: "Client",
     company: "Upwork",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYnTk3ExJfrVuDdxZvtlmnD_32ctKtbG_GoUCUuo45&s",
   },
   {
     testimonial: "Muhammad is an excellent developer. This is my second time hiring him and he is great.",
     name: "Burak Dedoglu",
     designation: "Client",
     company: "Upwork",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYnTk3ExJfrVuDdxZvtlmnD_32ctKtbG_GoUCUuo45&s",
   },
   {
     testimonial: "It was a pleasure to work with you! Very good developer! Highly recommended!",
-    name: "Lisa Wang",
+    name: "David Z Mugela",
     designation: "Client",
     company: "Upwork",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://media.licdn.com/dms/image/C4E03AQFQsT_dDI70Bg/profile-displayphoto-shrink_100_100/0/1663888744863?e=1706140800&v=beta&t=d6b1v5VINnq-3yOQZHjWjCVb3FQ9E-dxy6zPGraRxaU",
   },
 ];
 
