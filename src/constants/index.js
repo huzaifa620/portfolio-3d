@@ -192,28 +192,28 @@ const experiences = [
       "My AskAI is the end product and was originally founded as No Code AI Model Builder in December 2022"
     ],
   },
-  {
-    title: "Data Miner | Web Developer",
-    company_name: "Upwork",
-    companyUrl: "https://www.upwork.com/freelancers/~0128c84ead6dcef57a",
-    icon: upwork,
-    iconBg: "#383E56",
-    date: "Oct 2021 - Present",
-    points: [
-      "A freelancer who tries his best to satisfy and meet the client's requirements.",
-    ],
-  },
-  {
-    title: "Co-Founder",
-    company_name: "AIgnitiveX",
-    companyUrl: "https://aignitivex.com/",
-    icon: aignitiveX,
-    iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
-    points: [
-      "Empowering startups & organizations with technical solutions.",
-    ],
-  },
+  // {
+  //   title: "Data Miner | Web Developer",
+  //   company_name: "Upwork",
+  //   companyUrl: "https://www.upwork.com/freelancers/~0128c84ead6dcef57a",
+  //   icon: upwork,
+  //   iconBg: "#383E56",
+  //   date: "Oct 2021 - Present",
+  //   points: [
+  //     "A freelancer who tries his best to satisfy and meet the client's requirements.",
+  //   ],
+  // },
+  // {
+  //   title: "Co-Founder",
+  //   company_name: "AIgnitiveX",
+  //   companyUrl: "https://aignitivex.com/",
+  //   icon: aignitiveX,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jun 2023 - Present",
+  //   points: [
+  //     "Empowering startups & organizations with technical solutions.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
