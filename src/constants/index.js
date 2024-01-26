@@ -168,7 +168,7 @@ const experiences = [
   },
   {
     title: "Data Manager | Web Developer",
-    company_name: "Rehani Soko",
+    company_name: "Rehani LLC",
     companyUrl: "https://www.rehanisoko.com/",
     icon: rehani,
     iconBg: "#E6DEDD",
@@ -357,7 +357,7 @@ const projects = [
   },
   {
     name: "MyBricks 2.0",
-    url: "https://mybricks-three.vercel.app/",
+    url: "https://www.mybricksfinance.com/",
     description:
       "A portfolio showcasing various LEGO brick designs. Built for an startup, using React and Tailwind CSS to display creative constructions and architectural models.",
     tags: [
