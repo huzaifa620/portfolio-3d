@@ -27,6 +27,7 @@ import crosswing from "./company/crosswing.jpg";
 import myAskAI from "./company/myAskAI.jpg";
 import pl from "./company/pl.png";
 import rehani from "./company/rehani.jpg";
+import algo from "./company/algo.png";
 import upwork from "./company/upwork.jpg";
 
 import Pr1 from "./Pr1.png";
@@ -71,6 +72,7 @@ export {
   myAskAI,
   pl,
   rehani,
+  algo,
   upwork,
 
   Pr1,

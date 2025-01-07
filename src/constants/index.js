@@ -24,6 +24,7 @@ import {
   myAskAI,
   pl,
   rehani,
+  algo,
   upwork,
 
   Pr1,
@@ -139,6 +140,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer & Technical Support Specialist",
+    company_name: "Rehani LLC",
+    companyUrl: "https://www.rehanisoko.com/",
+    icon: rehani,
+    iconBg: "#E6DEDD",
+    date: "Apr 2023 - Present",
+    points: [
+      "Created a complete data pipeline of Real Estate data from various websites using Python with database on MongoDB.",
+      "Worked on data filtration part and make the data ready for model training to use it for prediction",
+      "Contributing to the development of an innovative online Real Estate platform utilizing the power of Vue.js and Django.",
+    ],
+  },
+  {
+    title: "Junior Developer",
+    company_name: "Algorithm Consulting (Pvt) Ltd",
+    companyUrl: "https://algorithmenergy.com/",
+    icon: algo,
+    iconBg: "#E6DEDD",
+    date: "May 2024 - Oct 2024",
+    points: [
+      "Created a complete data pipeline of Real Estate data from various websites using Python with database on MongoDB.",
+      "Worked on data filtration part and make the data ready for model training to use it for prediction",
+      "Contributing to the development of an innovative online Real Estate platform utilizing the power of Vue.js and Django.",
+    ],
+  },
+  {
     title: "Junior Software Engineer",
     company_name: "Profecia Links",
     companyUrl: "https://www.profecialinks.com/",
@@ -167,19 +194,6 @@ const experiences = [
     ],
   },
   {
-    title: "Data Manager | Web Developer",
-    company_name: "Rehani LLC",
-    companyUrl: "https://www.rehanisoko.com/",
-    icon: rehani,
-    iconBg: "#E6DEDD",
-    date: "Apr 2023 - Present",
-    points: [
-      "Created a complete data pipeline of Real Estate data from various websites using Python with database on MongoDB.",
-      "Worked on data filtration part and make the data ready for model training to use it for prediction",
-      "Contributing to the development of an innovative online Real Estate platform utilizing the power of Vue.js and Django.",
-    ],
-  },
-  {
     title: "Backend Developer",
     company_name: "My AskAI (formerly No Code AI Model Builder)",
     companyUrl: "https://myaskai.com/",
@@ -191,29 +205,7 @@ const experiences = [
       "Created an API to allow users to login to Twitter with their app using Twitter API on Node.js",
       "My AskAI is the end product and was originally founded as No Code AI Model Builder in December 2022"
     ],
-  },
-  // {
-  //   title: "Data Miner | Web Developer",
-  //   company_name: "Upwork",
-  //   companyUrl: "https://www.upwork.com/freelancers/~0128c84ead6dcef57a",
-  //   icon: upwork,
-  //   iconBg: "#383E56",
-  //   date: "Oct 2021 - Present",
-  //   points: [
-  //     "A freelancer who tries his best to satisfy and meet the client's requirements.",
-  //   ],
-  // },
-  // {
-  //   title: "Co-Founder",
-  //   company_name: "AIgnitiveX",
-  //   companyUrl: "https://aignitivex.com/",
-  //   icon: aignitiveX,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jun 2023 - Present",
-  //   points: [
-  //     "Empowering startups & organizations with technical solutions.",
-  //   ],
-  // },
+  }
 ];
 
 const testimonials = [
